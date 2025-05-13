@@ -1,0 +1,30 @@
+.upload-container {
+  text-align: center;
+  padding: 40px;
+  border: 2px dashed #ccc;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  transition: 0.3s;
+  cursor: pointer;
+  margin: 20px auto;
+  max-width: 400px;
+
+  img {
+    max-width: 180px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+    color: #333;
+  }
+
+  p {
+    color: #777;
+    margin-bottom: 16px;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+}

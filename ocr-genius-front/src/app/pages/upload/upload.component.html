@@ -1,0 +1,8 @@
+<div class="upload-container" (drop)="onFileDrop($event)" (dragover)="onDragOver($event)">
+  <img src="upload-illustration.png" alt="Illustration" />
+  <h3>Déposez vos fichiers ici</h3>
+  <p>ou utilisez le bouton "Nouveau".</p>
+
+  <button mat-raised-button color="primary" (click)="fileInput.click()">Nouveau</button>
+  <input type="file" hidden (change)="onFileSelected($event)" #fileInput />
+</div>
